@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Manshoo.ru</title>
+    <link href="{{ url_for('static', filename='css/mashMultiRes.css') }}" />
+    <link href="{{ url_for('static', filename='css/mash.css') }}" rel="stylesheet" />
+    <link href="{{ url_for('static', filename='css/fonts.css') }}" rel="stylesheet" />
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}" />
+    <script src="{{ url_for('static', filename='js/common.js') }}"></script>
+  </head>
+  <body>
+    <header>
+      <div class="cont">
+        <div class="flexCont headerWrap">
+          <div class="siteCaption">
+            <img src="{{ url_for('static', filename='logo.png') }}"/>
+            <h1>Manshoo.ru</h1>
+          </div>
+          <ul class="flexCont mainNavMenu">
+            <li><a href="{{ url_for('home') }}">Home page</a></li>
+            <li><a href="{{ url_for('memes') }}">Memes</a></li>
+            <li><a href="{{ url_for('news') }}">News</a><a href="{{ url_for('makePost') }}">(+)</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>

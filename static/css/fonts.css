@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Azeret Mono Semibold';
+    src: url(/static/fonts/Azeret_Mono/AzeretMono-SemiBold.ttf);
+}
+@font-face {
+    font-family: 'Azeret Mono Medium';
+    src: url(/static/fonts/Azeret_Mono/AzeretMono-Medium.ttf);
+}
+@font-face {
+    font-family: 'Azeret Mono Medium Italic';
+    src: url(/static/fonts/Azeret_Mono/AzeretMono-MediumItalic.ttf);
+}
+@font-face {
+    font-family: 'Azeret Mono Light';
+    src: url(/static/fonts/Azeret_Mono/AzeretMono-Light.ttf);
+}
+@font-face {
+    font-family: 'Azeret Mono Light Italic';
+    src: url(/static/fonts/Azeret_Mono/AzeretMono-LightItalic.ttf);
+}
+@font-face {
+    font-family: 'Azeret Mono Thin';
+    src: url(/static/fonts/Azeret_Mono/AzeretMono-Thin.ttf);
+}
+@font-face {
+    font-family: 'Azeret Mono Thin Italic';
+    src: url(AzeretMono-ThinItalic.ttf);
+}

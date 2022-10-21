@@ -1,0 +1,6 @@
+/misc
+/xv
+/.pytest_cache
+/.vscode
+**/__pycache__
+/manshoo.ru.code-workspace
